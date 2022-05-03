@@ -1,0 +1,118 @@
+
+/*---- set standard */
+:root {
+  --main-bg-color: linear-gradient(to right, rgba(136, 202, 121, 0.18), rgba(136, 202, 121, 0.72));
+  --elements:#b275344d;
+  --fontColor:#40402eeb;
+  --inputBckground:var(--inputBckground);
+  --fontSize : 23px;
+  --fontSizeSmall :17px;
+}
+
+
+
+
+
+body{
+  /* background: var(--main-bg-color); */
+  background: var(--main-bg-color);
+  margin: 0 auto;
+  color:var(--fontColor);
+  font-size: var(--fontSize);
+}
+footer{
+  margin-top: 12%;
+  background-color: #8d8df21f;
+    position: relative;
+    top: 32px;
+    left: 1em;
+    font-size: var(--fontSizeSmall);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+main{
+      z-index: -2;
+      text-align: center;
+}
+
+
+/* submit button  */
+
+#submit{background-color:blue;}
+#submit:disabled{background-color:#0000ff61;}
+#clear{background-color:red;margin-top: 2%;}
+
+.bigBtn{
+  width: 10rem;
+  height: 3rem;
+  font-size: 1em;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  letter-spacing: 3px;
+  font-family: system-ui;
+  font-weight: 700;
+  cursor: pointer;
+
+}
+main div{
+      margin-top: 13px;
+}
+textarea {
+border: none;
+ width: 400px;
+ height: 200px;
+ background-color:var(--inputBckground);
+ font-size: 1em;
+ font-weight: bold;
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ border: 1px solid black;
+     border-radius: 11px;
+}
+.container{
+  width:400px;
+  height: 200px;
+}
+
+.ischecked:checked + .strickthis{
+  text-decoration: line-through;
+}
+
+
+#maxNum{
+  width: 4em;
+    height: 2em;
+    border-radius: 12%;
+    border:none;
+    background-color:var(--inputBckground);
+    font-size: var(--fontSize);
+
+}
+
+#submited{
+  display: inline;
+width: 51%;
+margin: 0 auto;
+list-style: none;
+padding: 7px;
+}
+#submited div{
+  display: flex;
+      margin: auto;
+      letter-spacing: 2px;
+      padding: 1%;
+      position: relative;
+      left: 58px;
+}
+#submited input{
+   align-self: center;
+   width: 22px;
+    height: 2em;
+    margin-left: 2%;
+
+}
+.commentItem{
+  margin: 3%;
+box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px, rgb(51 51 51) 0px 0px 0px 3px;
+padding: 2px;
+
+}
