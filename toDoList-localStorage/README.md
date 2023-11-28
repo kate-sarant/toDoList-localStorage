@@ -1,5 +1,5 @@
 # Description
-This is a simple to DO list saving your tasks at local storage.
+This is a simple DO list that stores your tasks in local storage.
 
 ## Table of contents  🚀
 
